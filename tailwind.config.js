@@ -6,7 +6,8 @@ module.exports = {
         darkgreen: '#052324',
         graygreen: '#7B9291',
         palegreen: '#E8FAF3',
-        lightgray: '#FFFFFF',
+        lightgray: '#FFFFFF', // change this to white
+        darkergreen: '#041F20',
       },
       fontFamily: {
         ibmplexserif: ['IBM Plex Serif'],
