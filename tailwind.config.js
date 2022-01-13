@@ -25,6 +25,18 @@ module.exports = {
         'larger': ['9.375rem'],
         'largest': ['14.063rem'],
         // '2xl': ['1.5rem', { lineHeight: '2rem' }],
+      },
+      letterSpacing: {
+        h5: '0.25em',
+      },
+      width: {
+        '374': '23.375em',
+        '526': '32.875em',
+      },
+      height: {
+        '96': '6em',
+        '144': '9em',
+        '180': '11.25em',
       }
     },
   },
