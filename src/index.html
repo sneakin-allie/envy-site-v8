@@ -11,17 +11,13 @@
 <body>
     <header class="bg-darkgreen">
         <div> <!-- begin nav -->
-            <nav>
-                <div class="flex justify-start">
+            <nav class="flex justify-between pt-8">
+                <div>
                     <div>
-                        <p class="text-white ml-52">
-                            Envy Labs <!-- this might need to be an img -->
-                        </p>
-                    </div>
-                    <div>
-                        <p class="text-white font-spacegrotesk ml-2">
+                        <img src="envy-logo-white.png" alt="envy logo" class="pl-52 inline-block"/>
+                        <span class="text-white font-spacegrotesk ml-2">
                             Insightful web applications
-                        </p>
+                        </span>
                     </div>
                 </div>
                 <ul class="flex justify-end">
@@ -53,30 +49,35 @@
                 </ul>
             </nav>
         </div> <!-- end nav -->
+
         <div>
-            <div class="flex justify-end">
-                <div class="mt-72 mr-52">
+            <div class="flex justify-end mt-56 mr-52 -mb-48">
+                <div>
                     <p class="text-slategray text-2xl uppercase font-spacegrotesk tracking-h5">
                         Who We Are
                     </p>
-                    <p class="text-palemint text-h3 font-spacegrotesk">
+                    <p class="text-palemint text-h3 font-spacegrotesk mt-4">
                         Envy Labs builds right-fit <br> digital products that <br> amplify your expertise.
                     </p>
                 </div>
             </div>    
             
             <div>
-                <p class="text-slategray text-largest font-ibmplexserif font-light flex justify-start ml-52">
-                    <em>Practical</em>
-                </p>
-                <p class="text-slategray text-largest font-ibmplexserif font-light flex justify-end mr-52 mb-36">
-                    App<em>lications</em> <!-- needs a white period at the end -->
-                </p>
+                <div class="ml-52">
+                    <p class="text-slategray text-largest font-ibmplexserif font-light">
+                        <em>Practical</em>
+                    </p>
+                </div>
+                <div class="ml-96">
+                    <p class="text-slategray text-largest font-ibmplexserif font-light -mt-20">
+                        App<em>lications</em> <!-- needs a white period at the end -->
+                    </p>
+                </div>
             </div>
 
             <div>
-                <div class="flex justify-center">
-                    <div class="mr-32 mb-32">
+                <div class="flex justify-evenly pt-36 pb-32">
+                    <div>
                         <p class="text-slategray text-2xl uppercase font-spacegrotesk tracking-h5">
                             What We Do
                         </p>
@@ -255,8 +256,9 @@
                 </div>
             </div> <!-- end white bg -->
         </main>
-    <footer>
-        <div class="bg-darkgreen"> <!-- begin dark green bg -->
+
+    <footer class="bg-darkgreen">  <!-- begin dark green bg -->
+        <div>
             <div>
                 <p class="text-slategray text-larger font-ibmplexserif font-light">
                     <em>Practical</em> 
@@ -264,8 +266,8 @@
                     App<em>lications</em> <!-- needs a white period at the end -->
                 </p>
             </div>
-            <div class="text-palemint">
-                <div>
+            <div class="flex justify-end">
+                <div class="text-palemint">
                     <p class="uppercase font-spacegrotesk tracking-h5">
                         Navigate
                     </p>
@@ -302,7 +304,7 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="text-palemint ml-56 mr-80">
                     <p class="uppercase font-spacegrotesk tracking-h5">
                         Explore
                     </p>
@@ -335,25 +337,30 @@
                     </ul>
                 </div>
             </div>
-        </div> <!-- end dark green bg -->
-        <div class="bg-darkergreen text-palemint"> <!-- begin darker green bg -->
+        </div>
+        <div class="text-palemint">
             <div>
-                <p>
-                    Envy Labs
-                </p>
+                <img src="envy-logo-mint.png"/>
             </div>
-            <div>
-                <p class="font-spacegrotesk uppercase tracking-h5">
+            <div class="flex justify-end pb-8">
+                <p class="font-spacegrotesk uppercase tracking-h5 pr-6">
                     Get in touch
                 </p>
-                <p class="font-ibmplexserif text-xl">
-                    hello@envylabs.com
-                </p>
-                <p class="font-ibmplexserif text-xl">
-                    884.310.0257
-                </p>
+                <div class="border-x-4 px-6">
+                    <img src="envelope.png" alt="envelope" class="inline-block pr-2.5"/>
+                    <span class="font-ibmplexserif text-xl">
+                        hello@envylabs.com
+                    </span>
+                </div>
+                <div class="pl-6 pr-60">
+                    <img src="phone.png" alt="phone" class="inline-block pr-2.5"/>
+                    <span class="font-ibmplexserif text-xl">
+                        884.310.0257
+                    </span>
+                </div>
             </div>
-        </div> <!-- end darker green bg -->
-    </footer>      
+        </div>
+    </footer> <!-- end dark green bg -->
+
 </body>
 </html>
