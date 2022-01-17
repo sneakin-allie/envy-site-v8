@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class="bg-darkgreen">
+    <header class="bg-darkgreen border-none">
         <div> <!-- begin nav -->
             <nav class="flex justify-between pt-8">
                 <div>
@@ -51,8 +51,10 @@
         </div> <!-- end nav -->
 
         <div>
-            <div class="flex justify-end mt-56 mr-52 -mb-48">
+            <div class="flex justify-end relative mt-56 mr-52 -mb-48">
                 <div>
+                    <img src="x.png" class="mb-6 absolute top-0 right-0"/>
+                    <br>
                     <p class="text-slategray text-2xl uppercase font-spacegrotesk tracking-h5">
                         Who We Are
                     </p>
@@ -70,13 +72,13 @@
                 </div>
                 <div class="ml-96">
                     <p class="text-slategray text-largest font-ibmplexserif font-light -mt-20">
-                        App<em>lications</em> <!-- needs a white period at the end -->
+                        App<em>lications</em><span class="text-white">.</span>
                     </p>
                 </div>
             </div>
 
             <div>
-                <div class="flex justify-evenly pt-36 pb-32">
+                <div class="flex justify-evenly mt-36 mb-44 border-none">
                     <div>
                         <p class="text-slategray text-2xl uppercase font-spacegrotesk tracking-h5">
                             What We Do
@@ -96,14 +98,21 @@
                     </div>
                 </div>
             </div>
-
         </div>
-    </header> <!-- end dark green bg -->
+
+        <div class="bg-darkgreen border-none grid grid-cols-12"> <!-- squares -->
+            <div class="bg-white h-32 w-32 border-none col-start-2"></div> <!-- white square -->
+            <div class="bg-white h-32 w-32 border-none col-start-5"></div>
+            <div class="bg-white h-32 w-32 border-none col-start-8"></div>
+        </div>
+
+    </header>
 
         <main>        
             <div> <!-- begin white bg -->
                 <div class="flex justify-center">
-                    <div>
+                    <div class="mb-36">
+                        <img src="16-mint-squares.png" alt="decorative squares"/>
                         <p class="text-darkgreen text-* font-spacegrotesk font-bold leading-tight pt-96">
                             10+ Years of <br> Custom Software</p>
                         <p class="text-darkgreen text-h3 font-ibmplexserif pt-12">
@@ -113,8 +122,9 @@
                     </div>
                 </div>
 
-                <div>
-                    <img src="mark.png" alt="mark" class="border-b border-silver py-36">
+                <div class="relative w-4/5"> 
+                    <img src="aqua-square.png" alt="decorative square" class="absolute top-0 right-0"/>
+                    <img src="mark.png" alt="mark" class="border-b border-silver pb-36 w-full" />
                 </div>
 
                 <div class="flex justify-center py-56">
@@ -197,33 +207,38 @@
 
             </div> <!-- end white bg -->
             <div class="bg-darkgreen flex justify-center mt-72"> <!-- begin dark green bg -->
-                <div>
-                    <p class="text-white text-5xl font-spacegrotesk mt-80 mb-20 leading-snug">
-                        Our partnership with Envy Labs is the best <br>
-                        decision CentreLearn has ever made. Our <br>
-                        new training system puts us years beyond <br>
-                        the competition.
-                    </p>
-                    <p class="text-slategray text-2xl font-spacegrotesk uppercase tracking-h5 mb-32">
+                <div class="relative">
+                    <img src="five-rectangles.png" alt="decorative rectangles" class="absolute top-0 right-0"/>
+                    <div class="border-l-2 border-gunmetalgray pl-20">
+                        <img src="quotation.png" alt="quotation" class="bg-mint mt-32 px-11 py-11"/>
+                        <p class="text-white text-5xl font-spacegrotesk mt-20 mb-20 leading-snug">
+                            Our partnership with Envy Labs is the best <br>
+                            decision CentreLearn has ever made. Our <br>
+                            new training system puts us years beyond <br>
+                            the competition.
+                        </p>
+                    </div>
+                    <p class="text-slategray text-2xl font-spacegrotesk uppercase tracking-h5 mb-32 pl-20 border-l-8 border-mint">
                         Jason Paluck
                         <br>
                         Founder / CentreLearn
                     </p>
+                    <img src="five-squares.png" alt="decorative squares" class="absolute bottom-0 right-0"/>
                 </div>
             </div> <!-- end dark green bg -->
             <div> <!-- begin white bg -->
                 
-                <div class="flex py-32">
+                <div class="flex justify-center my-32">
                     <img src="nick-olivia.png" alt="nick and olivia">
                 </div>
 
                 <div class="flex justify-center">
                     <div>
                         <div class="mb-20">
-                            <p class="text-darkgreen text-6xl font-spacegrotesk font-bold">
+                            <p class="text-darkgreen text-6xl font-spacegrotesk font-bold tracking-wide mb-1">
                                 Latest Insights
                             </p>
-                            <p class="text-gunmetalgray text-2xl font-ibmplexserif">
+                            <p class="text-gunmetalgray text-2xl font-ibmplexserif leading-relaxed">
                                 <u>Hard-won thoughts</u> on the process, strategy, and technical <br> bits behind web applications.
                             </p>
                         </div>
@@ -231,10 +246,10 @@
                         <div class="flex space-x-20 mb-36">
                             <div class="border-b border-silver pb-14">
                                 <img src="interface.png" alt="interface design"/>
-                                <p class="text-darkgreen text-3xl font-ibmplexserif font-bold mt-8 mb-6">
+                                <p class="text-darkgreen text-3xl font-ibmplexserif font-bold leading-normal mt-8 mb-6">
                                     Athletic Apps: How to Design <br> Interfaces for Sports
                                 </p>
-                                <p class="text-gunmetalgray text-2xl font-ibmplexserif mb-14">
+                                <p class="text-gunmetalgray text-2xl font-ibmplexserif leading-relaxed mb-14">
                                     While traditional apps and sports apps have <br> 
                                     similarities, sports software development <br>
                                     presents unique challenges.
@@ -248,10 +263,10 @@
                             </div>
                             <div class="border-b border-silver pb-14">
                                 <img src="john-wayne.png" alt="wild west scene"/>
-                                <p class="text-darkgreen text-3xl font-ibmplexserif font-bold mt-8 mb-6">
+                                <p class="text-darkgreen text-3xl font-ibmplexserif font-bold leading-normal mt-8 mb-6">
                                     What Does a Web App Cost? It's a <br> Conversation, Not a Negotiation
                                 </p>
-                                <p class="text-gunmetalgray text-2xl font-ibmplexserif mb-14">
+                                <p class="text-gunmetalgray text-2xl font-ibmplexserif leading-relaxed mb-14">
                                     Rather than view your software <br>
                                     development budget as a negotiation, think <br>
                                     of it as a detailed conversation.
