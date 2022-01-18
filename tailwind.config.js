@@ -16,8 +16,8 @@ module.exports = {
         darkergreen: '#041F20', // not in color scale
       },
       fontFamily: {
-        ibmplexserif: ['IBM Plex Serif'], // formerly ibmplexserif
-        spacegrotesk: ['Space Grotesk'], // formerly spacegrotesk
+        ibmplexserif: ['IBM Plex Serif'], 
+        spacegrotesk: ['Space Grotesk'], 
       },
       fontSize: {
         'h3': ['2.5rem'],
@@ -38,17 +38,22 @@ module.exports = {
         '144': '9em',
         '180': '11.25em',
       },
+      gridTemplateColumns: {
+        '16': 'repeat(16, minmax(0, 1fr))',
+      },
       gridColumn: {
-        'grid-cols-14': 'grid-template-columns: repeat(14, minmax(0, 1fr))',
-        'span-14': 'span 14 / span 14',
         'span-16': 'span 16 / span 16',
       },
       gridColumnEnd: {
+        13: '13',
         14: '14',
+        15: '15',
         16: '16',
       }, 
       gridColumnStart: {
+        13: '13',
         14: '14',
+        15: '15',
         16: '16',
       }  
     },
