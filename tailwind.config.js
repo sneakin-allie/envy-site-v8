@@ -28,6 +28,7 @@ module.exports = {
       },
       letterSpacing: {
         h5: '0.25em',
+        extra: '1em',
       },
       width: {
         '374': '23.375em',
