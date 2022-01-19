@@ -56,7 +56,10 @@ module.exports = {
         14: '14',
         15: '15',
         16: '16',
-      }  
+      },
+      gridTemplateRows: {
+        '8': 'repeat(8, minmax(0, 1fr))',
+      },
     },
   },
   plugins: [],
