@@ -39,6 +39,9 @@ module.exports = {
         '144': '9em',
         '180': '11.25em',
       },
+      opacity: {
+        '15': '.15',
+      },
       gridTemplateColumns: {
         '16': 'repeat(16, minmax(0, 1fr))',
       },

@@ -81,12 +81,12 @@
             </p>
         </div>
 
-        <div class="grid grid-cols-16 mb-44">
-            <div class="col-start-2 relative">
+        <div class="grid grid-cols-16">
+            <div class="col-start-1 relative">
                 <img src="img/opaque-mint-square.png" class="absolute bottom-0"/>
             </div>
-            <div class="col-start-4 relative">
-                <img src="img/teal-square.png" class="absolute bottom-0 left-0" />
+            <div class="col-start-3 relative">
+                <img src="img/teal-square.png" class="absolute bottom-0 right-0" />
             </div>
             <!-- WHAT WE DO -->
             <div class="col-span-4 col-start-6">
@@ -110,12 +110,13 @@
 
         <!-- third to last row of squares on dark green bg -->
         <div class="grid grid-cols-16">
-            <img src="img/dark-transparent-square.png" class="col-start-2 bg-darkgreen opacity-20"/>
+            <img src="img/darkest-square.png" class="bg-black opacity-15 col-start-2" />
+            <img src="img/darkest-square.png" class="bg-black opacity-15 col-start-3" />
             <div class="col-start-5 relative">
                 <img src="img/dark-little-square.png" class="absolute bottom-0 right-0" />
             </div>
             <div class="col-start-11 relative">
-                <img src="img/cross.png" class="absolute inset-x-1/2"/>
+                <img src="img/cross.png" class="absolute inset-x-1/2" />
             </div>
             <div class="col-start-14 relative">
                 <img src="img/teal-square.png" class="absolute bottom-0 right-0" />
@@ -124,13 +125,23 @@
 
         <!-- second to last row of squares on dark green bg -->
         <div class="grid grid-cols-16">
+            <div class="col-start-1 relative">
+                <img src="img/little-darkest-square.png" class="bg-black opacity-25 absolute top-0 right-0" />
+            </div>
             <div class="col-start-3 relative">
                 <img src="img/outlined-h.png" />
-                <span><p class="font-spacegrotesk uppercase text-darkslategray tracking-extra col-span-5 absolute top-0">Insightful software</p></span>
+                <span class="font-spacegrotesk uppercase text-darkslategray tracking-extra absolute top-0">Insightful software</span>
             </div>
             <img src="img/white-square.png" class="col-start-6" />
-            <img src="img/mini-square-shadow.png" class="col-start-10" />
-            <img src="img/ombre-squares.png" class="col-start-12" />
+            <img src="img/darkest-square.png" class="bg-black opacity-20 col-start-8"/>
+            <img src="img/5-offset-squares.png" class="col-start-9" />
+            <div class="col-start-10 relative">
+                <img src="img/mini-square-shadow.png" class="absolute inset-y-1/2"/>
+            </div>
+            <div class="col-start-12 relative">
+                <img src="img/darkest-square.png" class="bg-black opacity-25"/>
+                <img src="img/ombre-squares.png" class="absolute inset-2/4" />
+            </div>
             <img src="img/five-squares.png" class="col-start-15" />
         </div>
 
@@ -138,15 +149,17 @@
         <div class="grid grid-cols-16">
             <img src="img/white-square.png" class="col-start-2"/>
             <div class="col-start-5 relative">
+                <img src="img/darkest-square.png" class="bg-black opacity-15" />
                 <img src="img/3-squares.png" class="absolute right-0 inset-y-1/2" />
             </div>
             <div class="col-start-6 relative">
                 <img src="img/x-mini-square-shadow.png" class="absolute inset-2/4"/>
             </div>
             <div class="col-start-7 relative">
+                <img src="img/little-darkest-square.png" class="bg-black opacity-25" />
                 <p class="font-spacegrotesk uppercase text-darkslategray tracking-extra absolute bottom-0">Insightful</p>
             </div>
-            <img src="img/white-square.png" class="col-start-9"/>
+            <img src="img/white-square.png" class="col-start-9" />
             <img src="img/opaque-mint-square.png" class="col-start-11" />
             <div class="col-start-12 relative">
                 <img src="img/x.png" class="absolute right-0 inset-y-1/2"/>
@@ -200,7 +213,7 @@
                     <img src="img/mark.png" alt="mark" class="border-b border-silver pb-36 w-full" />
                 </div>
 
-                <div class="flex justify-center py-52">
+                <div class="flex justify-center pt-52">
                     <div class="pr-16">
                         <p class="text-darkgreen text-h3 font-spacegrotesk font-bold pb-11">
                             For Startups
@@ -221,83 +234,76 @@
                     </div>
                 </div>
                 
-                <div> <!-- begin case studies -->
+                <div class="grid grid-cols-16 grid-rows-5"> <!-- begin case studies -->
 
-                    <div class="grid grid-cols-16 grid-rows-5">
+                    <!-- Case Studies -->
+                    <p class="text-darkgreen text-* font-spacegrotesk font-bold leading-tight col-start-3 col-span-3 row-start-1 self-end mb-8">
+                        Case Studies
+                    </p>
+                    <p class="text-gunmetalgray text-2xl font-ibmplexserif leading-relaxed col-start-3 col-span-5 row-start-2">
+                        What does a project look like?
+                        Our case studies detail the approach, from discovery to delivery.
+                    </p>
 
-                        <!-- Case Studies -->
-                        <div class="col-start-3 col-span-5 row-start-1 row-span-2">
-                            <p class="text-darkgreen text-* font-spacegrotesk font-bold leading-tight mb-8">
-                                Case <br> Studies
+                    <!-- Moonllight -->
+                    <div class="col-start-10 col-span-5 row-start-2 row-span-2 mb-52">
+                        <img src="img/moonllight.png" alt="moonllight screen shot" class="w-full"/>
+                        <div class="flex mt-12 mb-8 items-center">
+                            <p class="bg-palemint text-2xl h-16 flex items-center px-5">
+                                01
                             </p>
-    
-                            <p class="text-gunmetalgray text-2xl font-ibmplexserif leading-relaxed">
-                                What does a project look like?
-                                Our case studies detail the approach, from discovery to delivery.
+                            <p class="text-darkgreen text-h3 font-spacegrotesk font-bold ml-6">
+                                Moonllight
+                            </p>
+                        </div>   
+                        <p class="text-gunmetalgray text-2xl font-ibmplexserif leading-relaxed pb-12 border-b-2 border-silver">
+                            We combined data from four international soccer leagues into one fantasy sports experience.
+                        </p>
+                    </div>
+                    
+                    <!-- Cisco -->
+                    <div class="col-start-3 col-span-5 row-start-3 row-span-2 pb-12 border-b-2 border-silver">
+                        <img src="img/cisco.png" alt="cicso screen shot" class="w-full"/>
+                        <div class="flex mt-12 mb-8 items-center">
+                            <p class="bg-palemint text-2xl h-16 flex items-center px-5">
+                                02
+                            </p>
+                            <p class="text-darkgreen text-h3 font-spacegrotesk font-bold ml-6">
+                                Cisco
                             </p>
                         </div>
-
-                        <!-- Moonllight -->
-                        <div class="col-start-10 col-span-5 row-start-2 row-span-2">
-                            <img src="img/moonllight.png" alt="moonllight screen shot" class="w-full"/>
-                            <div class="flex mt-12 mb-8 items-center">
-                                <p class="bg-palemint text-2xl h-16 flex items-center px-5">
-                                    01
-                                </p>
-                                <p class="text-darkgreen text-h3 font-spacegrotesk font-bold ml-6">
-                                    Moonllight
-                                </p>
-                            </div>   
-                            <p class="text-gunmetalgray text-2xl font-ibmplexserif leading-relaxed pb-12 border-b-2 border-silver">
-                                We combined data from four international soccer leagues into one fantasy sports experience.
+                        <p class="text-gunmetalgray text-2xl font-ibmplexserif leading-relaxed">
+                            We changed the way network administration training is delivered across Cisco's organization
+                        </p>
+                        <p class="font-spacegrotesk uppercase text-2xl tracking-h5 mt-8 border-l-4 border-darkgreen pl-6">
+                            Learn More
+                        </p>
+                    </div>
+                    
+                    <!-- Roark MMA -->
+                    <div class="col-start-10 col-span-5 row-start-4 row-span-2 mb-32">
+                        <img src="img/roark.png" alt="roark screen shot" class="w-full">
+                        <div class="flex mt-12 mb-8 items-center">
+                            <p class="bg-palemint text-2xl h-16 flex items-center px-5">
+                                03
+                            </p>
+                            <p class="text-darkgreen text-h3 font-spacegrotesk font-bold ml-6">
+                                Roark MMA
                             </p>
                         </div>
-                       
-                        <!-- Cisco -->
-                        <div class="col-start-3 col-span-5 row-start-3 row-span-2 pb-12 border-b-2 border-silver">
-                            <img src="img/cisco.png" alt="cicso screen shot" class="w-full"/>
-                            <div class="flex mt-12 mb-8 items-center">
-                                <p class="bg-palemint text-2xl h-16 flex items-center px-5">
-                                    02
-                                </p>
-                                <p class="text-darkgreen text-h3 font-spacegrotesk font-bold ml-6">
-                                    Cisco
-                                </p>
-                            </div>
-                            <p class="text-gunmetalgray text-2xl font-ibmplexserif leading-relaxed">
-                                We changed the way network administration training is delivered across Cisco's organization
-                            </p>
-                            <p class="font-spacegrotesk uppercase tracking-h5 mt-8 border-l-4 border-darkgreen pl-6">
-                                Learn More
-                            </p>
-                        </div>
-                        
-                        <!-- Roark MMA -->
-                        <div class="col-start-10 col-span-5 row-start-4 row-span-2 mb-36">
-                            <img src="img/roark.png" alt="roark screen shot" class="w-full">
-                            <div class="flex mt-12 mb-8 items-center">
-                                <p class="bg-palemint text-2xl h-16 flex items-center px-5">
-                                    03
-                                </p>
-                                <p class="text-darkgreen text-h3 font-spacegrotesk font-bold ml-6">
-                                    Roark MMA
-                                </p>
-                            </div>
-                            <p class="text-gunmetalgray text-2xl font-ibmplexserif leading-relaxed pb-12 border-b-2 border-silver">
-                                We combined data from four international soccer leagues into one fantasy sports experience.
-                            </p>
-                        </div>
+                        <p class="text-gunmetalgray text-2xl font-ibmplexserif leading-relaxed pb-12 border-b-2 border-silver">
+                            We combined data from four international soccer leagues into one fantasy sports experience.
+                        </p>
+                    </div>
 
-                    </div>   
-
-                </div> <!-- end case studies -->
+                </div> <!-- end case studies -->  
 
                 <div class="grid grid-cols-16">
                     <img src="img/mini-mint-square.png" class="col-start-10" />
                 </div>
 
                 <div class="grid grid-cols-16">
-                    <img src="img/vertical-gray-lines.png" class="col-start-4" />
+                    <img src="img/5-vertical-gray-lines.png" class="col-start-4" />
                     <img src="img/dark-green-square.png" class="col-start-9" />
                     <img src="img/mint-square.png" class="col-start-13" />
                 </div>
@@ -315,16 +321,24 @@
                         <img src="img/quotation.png" class="bg-mint px-11 py-11 ml-20" />
                     </div>
                     <img src="img/mini-square-shadow.png" class="col-start-12 absolute bottom-0" />
+                    <img src="img/darkest-square.png" class="bg-black opacity-15 col-start-14"/>
                 </div>
 
                 <div class="grid grid-cols-16">
                     <div class="col-start-7 relative">
                         <img src="img/ombre-squares.png" class="absolute inset-1/2"/>
-                    </div> 
+                    </div>
+                    <div class="col-start-2 relative">
+                        <img src="img/darkest-square.png" class="bg-black opacity-20 absolute inset-y-1/2"/>
+                    </div>
                     <div class="col-start-4 col-span-10 border-l-2 border-gunmetalgray pl-20">   
                         <p class="text-white text-5xl font-spacegrotesk mt-20 leading-snug">
-                            Our partnership with Envy Labs is the best decision CentreLearn has ever made. Our new training system puts us years beyond the competition.
+                            Our partnership with Envy Labs is the best decision CentreLearn has ever made. 
+                            Our new training system puts us years beyond the competition.
                         </p>
+                    </div>
+                    <div class="col-start-15 relative">
+                        <img src="img/darkest-square.png" class="bg-black opacity-20 absolute inset-y-1/2"/>
                     </div>
                     <div class="col-start-9">
                         <img src="img/5-offset-squares.png" />
@@ -428,6 +442,8 @@
                 </p>
             </div>
 
+            <img src="img/darkest-square.png" class="bg-black opacity-15 col-start-8" />
+
             <div class="col-start-9 relative">
                 <img src="img/teal-square.png" class="absolute right-0 inset-y-1/4"/>
                 <img src="img/ombre-squares.png" class="absolute inset-y-1/2"/>
@@ -513,7 +529,7 @@
 
         </div>
 
-        <div class="text-palemint flex justify-between mt-11">
+        <div class="bg-darkergreen text-palemint flex justify-between pt-8">
 
             <div class="ml-40 pb-7">
                 <img src="img/envy-logo-mint.png"/>
